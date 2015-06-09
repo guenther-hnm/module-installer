@@ -1,0 +1,11 @@
+{
+    "name": "asdf/module-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "extra": {
+        "class": "asdf\\composer\\N2nModuleInstallerPlugin"
+    }
+}
