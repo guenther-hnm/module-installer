@@ -1,5 +1,5 @@
 <?php
-namespace asdf\composer;
+namespace installer\composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

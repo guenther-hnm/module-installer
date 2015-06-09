@@ -1,5 +1,5 @@
 <?php
-namespace composer;
+namespace installer\composer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
