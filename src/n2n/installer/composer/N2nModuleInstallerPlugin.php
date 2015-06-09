@@ -9,7 +9,7 @@ class N2nModuleInstallerPlugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {
-        $installer = new TemplateInstaller($io, $composer);
+        $installer = new N2nModuleInstaller($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
 }
