@@ -6,6 +6,6 @@
         "composer-plugin-api": "^1.0"
     },
     "extra": {
-        "class": "asdf\\module-installer\\composer\\N2nModuleInstallerPlugin"
+        "class": "module-installer\\composer\\N2nModuleInstallerPlugin"
     }
 }
