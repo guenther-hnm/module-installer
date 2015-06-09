@@ -4,7 +4,10 @@
     "require": {
         "composer-plugin-api": "^1.0"
     },
+    "autoload": {
+        "psr-4": {"n2n\\": "src/n2n"}
+    },
     "extra": {
-        "class": "installer\\composer\\N2nModuleInstallerPlugin"
+        "class": "n2n\\installer\\composer\\N2nModuleInstallerPlugin"
     }
 }

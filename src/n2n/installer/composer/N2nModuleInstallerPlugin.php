@@ -1,5 +1,5 @@
 <?php
-namespace installer\composer;
+namespace n2n\installer\composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
